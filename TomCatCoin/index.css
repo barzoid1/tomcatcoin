@@ -188,10 +188,16 @@ nav li{
     background-blend-mode: overlay;
     padding-top:4rem;
 }
+#check li{
+  padding-left: 2rem;
+background-image:url("images/green-checkmark-modified.svg");
+background-repeat: no-repeat;
+background-position: left center;
+}
 
 .roadlist li{
   margin-left: 2rem;
-  list-style:none;
+  list-style: none;
   color: #8f8f8f;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -293,7 +299,59 @@ background-color: #295AF2;
   justify-content: space-between;
 }
 
+#community{
+  position: relative;
+}
+#community h2{
+  margin-bottom:3rem;
+  font-weight: 900;
+  line-height: 1;
+  font-size: 3.6rem;
+}
+#plane{
+  display: flex;
+  align-items: center;
 
+  background:linear-gradient(180deg, #00C3FF 0%, #295AF2);
+  border-radius: .9rem;
+  border: none;
+  padding: 1.3rem;
+  font-weight: 700;
+}
+#plane img{
+width: 2rem;
+border-radius: 2rem;
+margin-right: .3rem;
+}
+#plane h3{
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0rem;
+}
+.small{
+  width:100%;
+color: white;
+text-align: center;
+  position:absolute;
+  bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 4rem;
+ 
+}
+.small a{
+  text-decoration: none;
+  animation-name: shine;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes shine{
+ 0% {color:red;}
+  25% {color:blue;}
+  50% {color:yellow;}
+  75% {color:purple}
+  100% {color:pink;}
+}
 
 
 

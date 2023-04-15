@@ -15,3 +15,13 @@ const copy = () => {
     copybtn.innerText = 'Copy'
   }, 1000); 
 }
+
+const load = () => {
+  const loader = document.querySelector('.loader')
+  window.addEventListener('load',() => {
+    loader.getElementsByClassName.display = 'none'
+    loader.parentElement.removeChild(loader)
+  })
+
+}
+ load()
