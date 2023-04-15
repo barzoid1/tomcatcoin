@@ -73,6 +73,7 @@ margin-left: 4rem;
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
+  padding-top: 0;
 }
 
  #h2{
@@ -125,7 +126,6 @@ nav img{
 }
 nav {
   display:flex;
-  padding-top: 1rem;
   align-items: center;
   justify-content: space-between;
 }
