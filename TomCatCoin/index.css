@@ -1,0 +1,178 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: "Poppins", Arial;
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+body{ 
+
+color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+h1{
+  text-transform: uppercase;
+  color:white;
+  font-size: 2.8rem;
+  margin-top: 7rem;
+  
+}
+h1{
+  text-transform: uppercase;
+  color:white;
+  font-size: 1.8rem;
+  margin-top: 7rem; 
+}
+
+
+section{
+  padding:3rem 0 ;
+  background-color:#000;
+}
+.exchange-names{
+  display:grid;
+  grid-template-columns: 1fr;
+  margin-top: 1rem;
+  align-items: center;
+ 
+}
+.exchange-names li img {
+  width: 200px;
+}
+.exchange-names ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   margin-top: 1rem;
+   list-style: none;
+}
+.exchange-names li {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+
+}
+.exchange-names h2{
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+margin-left: 4rem;
+}
+
+#home{
+  background-image:url("images/tomjerry.png");
+  background-color: #2b2b2b;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+ #h2{
+  font-size:2rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+#howtobuy h3{
+font-size: 2.4;
+font-style: bold;
+margin: 1rem 0;
+}
+#main{
+  display:flex;
+  align-items: center; 
+  margin-left: 1rem;  
+}
+
+p{
+  color: white;
+}
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+.btn{
+  color: white;
+  background-color: #295AF2;
+  border-radius:1rem;
+  padding:.9rem 3rem;
+  text-align: center;
+  margin: 1rem 0;
+  border: none; 
+}
+#btntop{
+  padding:.3rem 3rem;
+  margin-right: 1rem;
+}
+#btn1{
+color:white;
+background: linear-gradient(45deg,#191919,#39393a);
+}
+
+nav img{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 50px;
+  border-radius: 2rem;
+  
+}
+nav {
+  display:flex;
+  padding-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul{
+  margin-left:1rem;
+  margin-right: 1rem;
+  margin-top:1rem;
+}
+nav li{
+  color:#fff;
+  display:inline-block;
+  margin-left: 2rem;
+}
+
+#howtobuy{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+ gap: 5rem;
+  margin-bottom: 1rem;
+}
+hr{
+  width: 100%;
+}
+
+#con{
+  display: flex;
+  align-items: center;
+}
+.con{
+color: #fff;
+padding: .3rem;
+display: inline;
+margin-right: 1rem;
+border: none;
+border-radius: .5rem;
+background-color: #295AF2;
+}
+
+.copy-button {
+  cursor: pointer;
+  border: none;
+  background-color: #295AF2;
+  color: #fff;
+  padding: .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+
+
