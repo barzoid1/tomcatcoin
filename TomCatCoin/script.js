@@ -17,11 +17,14 @@ const copy = () => {
 }
 
 const load = () => {
-  const loader = document.querySelector('.loader')
-  window.addEventListener('load',() => {
-    loader.getElementsByClassName.display = 'none'
-    loader.parentElement.removeChild(loader)
-  })
+  const loader = document.querySelector('#loader')
+  setTimeout(() => {
+loader.style.display = 'none'
+loader.parentElement.removeChild(loader)
+  }, 2000);
+  loader.style.className.add('loader')   
+ 
+  
 
 }
  load()
