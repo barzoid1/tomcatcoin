@@ -9,8 +9,12 @@ html{
   scroll-behavior: smooth;
 }
 body{ 
-
 color: white;
+}
+
+hr{
+  width: 85%;
+  margin: .5rem auto;
 }
 a{
   text-decoration: none;
@@ -21,20 +25,198 @@ h1{
   color:white;
   font-size: 2.8rem;
   margin-top: 7rem;
-  
-}
-h1{
-  text-transform: uppercase;
-  color:white;
-  font-size: 1.8rem;
-  margin-top: 7rem; 
 }
 
+#h11{
+  margin-top:-1.5rem;
+}
+
+p{
+  color: white;
+}
+
+#tokn p{
+  color:#8f8f8f;
+font-size: 16px;
+font-weight: 300; 
+margin-left: 2rem;
+}
+#tokn p.large{
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #fff;
+ 
+}
+
+#token h2{
+  text-align: center;
+  margin-bottom:2rem;
+}
+p.large{
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+h3.large{
+  font-size: 2.15rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  
+}
+h2{
+  font-size:2rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+#howtobuy h3{
+font-size: 2.4;
+font-style: bold;
+margin: 1rem 0;
+}
+#roadlist h3{
+  font-size: 2.15rem;
+  font-weight: 700;
+ text-align: center;
+  margin-top:-.5rem;
+}
+#roadlist #ftr{
+  color: #295af2; text-align: center; margin: 0; font-weight: 500; font-style: bold; 
+}
+
+.btn{
+  color: white;
+  background-color: #295AF2;
+  border-radius:1rem;
+  padding:.9rem 3rem;
+  text-align: center;
+  margin: 1rem 0;
+  border: none; 
+  font-weight: 600;
+}
+#btntop{
+  padding:.3rem 3rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+#btn1{
+color:white;
+background: linear-gradient(45deg,#191919,#39393a);
+}
+
+.loader{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background-color: #c6c4c4;
+z-index: 1000000;
+}
+#loadimg img{
+  width: 50px;
+  border-radius: 2rem;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform:translate(0deg)
+  }
+  100%{
+    transform:translate(360deg)
+  }
+}
 
 section{
   padding:3rem 0 ;
   background-color:#000;
 }
+
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+nav img{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 50px;
+  border-radius: 2rem;
+  
+}
+nav {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul{
+  margin-left:1rem;
+  margin-right: 1rem;
+  margin-top:1rem;
+}
+nav li{
+  color:#fff;
+  display:inline-block;
+  margin-left: 2rem;
+}
+
+#main{
+  display:flex;
+  align-items: center; 
+  margin-left: 1rem;  
+}
+
+#home{
+  background-image:url("images/tomjerry.png");
+  background-color: #2b2b2b;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  padding-top: 0;
+}
+#community{
+    background-image:url("images/tomjerry2.png");
+    background-color: #2b2b2b;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    padding-top:4rem;
+}
+
+.roadlist li{
+  margin-left: 2rem;
+  list-style:none;
+  color: #8f8f8f;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.roadlist{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr); 
+}
+#roadli{
+  margin-top: 2rem;
+  border: 1px solid #c6c4c4 ;
+  border-radius: .5rem;
+}
+#roadli #rp{
+  font-weight: 600;
+  color: white;
+  font-style: bold;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-style: bold;
+}
+
+
+
 .exchange-names{
   display:grid;
   grid-template-columns: 1fr;
@@ -66,87 +248,14 @@ section{
 margin-left: 4rem;
 }
 
-#home{
-  background-image:url("images/tomjerry.png");
-  background-color: #2b2b2b;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-blend-mode: overlay;
-  padding-top: 0;
-}
-
- #h2{
-  font-size:2rem;
-  font-weight: 700;
-  line-height: 1.5rem;
-}
-#howtobuy h3{
-font-size: 2.4;
-font-style: bold;
-margin: 1rem 0;
-}
-#main{
-  display:flex;
-  align-items: center; 
-  margin-left: 1rem;  
-}
-
-p{
-  color: white;
-}
-.container{
-  width: 95%;
-  margin: 0 auto;
-}
-.btn{
-  color: white;
-  background-color: #295AF2;
-  border-radius:1rem;
-  padding:.9rem 3rem;
-  text-align: center;
-  margin: 1rem 0;
-  border: none; 
-}
-#btntop{
-  padding:.3rem 3rem;
-  margin-right: 1rem;
-}
-#btn1{
-color:white;
-background: linear-gradient(45deg,#191919,#39393a);
-}
-
-nav img{
-  margin-top: 1rem;
-  margin-left: 1rem;
-  width: 50px;
-  border-radius: 2rem;
-  
-}
-nav {
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-}
-nav ul{
-  margin-left:1rem;
-  margin-right: 1rem;
-  margin-top:1rem;
-}
-nav li{
-  color:#fff;
-  display:inline-block;
-  margin-left: 2rem;
-}
-
 #howtobuy{
   display:grid;
   grid-template-columns: 1fr 1fr;
  gap: 5rem;
   margin-bottom: 1rem;
 }
-hr{
+
+#howtobuy hr{
   width: 100%;
 }
 
@@ -173,6 +282,18 @@ background-color: #295AF2;
   border-radius: .5rem;
   cursor: pointer;
 }
+
+
+
+#tokn{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap: 2.5rem;
+  margin-left:3rem ;
+  justify-content: space-between;
+}
+
+
 
 
 
