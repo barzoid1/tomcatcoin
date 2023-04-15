@@ -112,21 +112,22 @@ background: linear-gradient(45deg,#191919,#39393a);
   display: flex;
   align-items: center;
   justify-content: center;
-background-color: #c6c4c4;
-z-index: 1000000;
+background-color: #000;
+z-index: 1000;
+position: fixed;
 }
 #loadimg img{
   width: 50px;
   border-radius: 2rem;
-  animation: spin 3s linear infinite;
+  animation: scale 1.2s infinite;
 }
 
-@keyframes spin {
+@keyframes scale {
   0% {
-    transform:translate(0deg)
+    transform:scale()
   }
   100%{
-    transform:translate(360deg)
+    transform:scale(2)
   }
 }
 
@@ -189,7 +190,7 @@ nav li{
     padding-top:4rem;
 }
 #check li{
-  padding-left: 2rem;
+  padding-left: 4rem;
 background-image:url("images/green-checkmark-modified.svg");
 background-repeat: no-repeat;
 background-position: left center;
@@ -198,6 +199,7 @@ background-position: left center;
 .roadlist li{
   margin-left: 2rem;
   list-style: none;
+  padding: 0;
   color: #8f8f8f;
   margin-top: 1rem;
   margin-bottom: 1rem;
