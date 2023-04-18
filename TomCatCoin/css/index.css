@@ -1,4 +1,4 @@
-
+v
 *{
   box-sizing: border-box;
   margin: 0;
@@ -11,6 +11,7 @@ html{
 }
 body{ 
 color: white;
+background-color: #000;
 }
 
 a{
@@ -159,17 +160,21 @@ nav li a{
 #main{
   display:flex;
   align-items: center; 
-  margin-left: 1rem;  
+  margin-left: 1rem;
 }
 
 #home{
-  background-image:url("../images/tomjerry.png");
-  background-color: #2b2b2b;
+  background:url("../images/tomjerry.png"), linear-gradient( 180deg, transparent 5%, #000 100%);
   background-size: cover;
-  background-position: center;
+  background-position: center; 
   background-repeat: no-repeat;
   background-blend-mode: overlay;
   padding-top: 0;
+}
+#roadmap{
+  margin-bottom: 3rem;
+  background: linear-gradient(180deg, transparent, #000 70%);
+
 }
 #community{
     background-image:url("../images/tomjerry2.png");
