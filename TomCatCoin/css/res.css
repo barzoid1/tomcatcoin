@@ -1,7 +1,7 @@
 @media screen and (max-width:747px)
 {
   h1{
-  text-transform:uppercase;
+  text-transform:lowercase;
   color:white;
   font-size:1.9rem;
   text-align: center;
