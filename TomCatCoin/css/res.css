@@ -59,21 +59,21 @@ margin:0;
 margin-bottom: .6rem;
   }
 #buytext{
-margin:0;
+margin:.5;
 }
   #howtobuy{
     display:grid;
     grid-template-columns: 1fr;
-
   }
 
   iframe{
     width: 100%;
     margin:auto;
+border-radius:1rem;
   }
   #con{
     display: grid;
-    align-items: center;
+    align-itrems: center;
     grid-template-rows: 1fr;
     margin-top: 3rem;
   }
