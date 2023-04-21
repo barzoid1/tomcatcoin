@@ -27,7 +27,7 @@
   #mainbtn{
     display: grid;
     grid-template-columns: 1fr;
-    margin:auto; 
+    margin:0; 
     }
   /* nav a{
     display: none;
