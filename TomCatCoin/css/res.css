@@ -51,10 +51,13 @@
   #buy h2{
 margin-bottom: .6rem;
   }
+#buytext{
+margin-left:2rem;
+}
   #howtobuy{
     display:grid;
     grid-template-columns: 1fr;
-margin-left:2rem;
+
   }
 
   iframe{
