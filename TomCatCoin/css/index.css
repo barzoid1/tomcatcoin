@@ -142,17 +142,7 @@ nav img{
 }
 nav li a{
   color: #b4b4b4;
-}
-
-#main{
-  display:flex;
-  align-items: center; 
-}
-#maintext{
-display:block;
-margin-left: 1rem
-}
-
+}
 #home{
   background:url("../images/tomjerry.png"), linear-gradient( 180deg, transparent 5%, #000 100%);
   background-size: cover;
