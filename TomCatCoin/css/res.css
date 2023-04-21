@@ -103,7 +103,7 @@ margin-left:1rem;
     grid-template-rows: 1fr 1fr;
     grid-template-columns:repeat(2, 1fr);  
 margin:0;
-margin-left:1rem;
+align-content:center;
 }
 #tokn h2{
   font-size: 1rem;
