@@ -30,6 +30,7 @@
 }
 #maintext{
 margin:0;
+text-align:center;
 }
   #mainbtn{
     display: grid;
