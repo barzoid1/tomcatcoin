@@ -146,8 +146,11 @@ nav li a{
 
 #main{
   display:flex;
-  align-items: center; 
-  
+  align-items: center; 
+}
+#maintext{
+display:block;
+margin-left: 1rem
 }
 
 #home{
