@@ -28,6 +28,9 @@
   display:flex;
    flex-direction:column;
 }
+#maintext{
+margin:0;
+}
   #mainbtn{
     display: grid;
     grid-template-columns: 1fr;
