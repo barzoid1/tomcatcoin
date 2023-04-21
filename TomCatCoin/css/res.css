@@ -24,6 +24,10 @@
   #btntop{
     padding:.15rem;
   }
+#main{ 
+  display: grid;
+    grid-template-columns: 1fr
+}
   #mainbtn{
     display: grid;
     grid-template-columns: 1fr;
