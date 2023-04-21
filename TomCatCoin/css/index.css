@@ -33,6 +33,7 @@ h1{
 #roadlist p{
   color: #b4b4b4;
 }
+#maintext{color:#295af2;}
 
 
 #tokn p.large{
@@ -66,7 +67,7 @@ font-style: bold;
 line-height:1.5;
 margin: 1rem 0;
 }
-#howtobuy p{ color:#b4b4b4}
+#howtobuy p{ color:#295af2}
 #roadlist h3{
   font-size: 2.15rem;
   font-weight: 700;
