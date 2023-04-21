@@ -66,6 +66,9 @@ margin:.5;
     display:grid;
     grid-template-columns: 1fr;
   }
+#howtobuy h2{
+text-align:center;
+}
 
   iframe{
     width: 100%;
